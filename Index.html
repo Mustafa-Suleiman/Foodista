@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="Best app you can rely on to deliver your food" />
+    <meta name="description" content="Everything you love about food" />
+
+    <link rel="shortcut icon" href="img/fav-icon-small.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/fav-icon-ios.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>Foodista &mdash; Never cook again</title>
+  </head>
+
+  <body>
+    <div class="gradient">
+      <div class="container">
+        <!----------- HEADER SECTION---------------->
+
+        <header class="main-header flex f--align-c">
+          <div class="logo">
+            <a href="">
+              <img src="img/foodista-logo.png" alt="foodista  logo " class="logo" />
+            </a>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav-list flex">
+              <li><a href="#testi" class="main-nav-link">Why Foodista?</a></li>
+              <li><a href="#features" class="main-nav-link">Services</a></li>
+              <li><a href="#menu" class="main-nav-link">Menu</a></li>
+              <li><a href="#contact" class="main-nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-btns flex">
+            <button class="search btn--clear">
+              <ion-icon name="search-outline" class="search-icon"></ion-icon>
+            </button>
+            <button class="cart btn--clear">
+              <img
+                class="cart-icon"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAADI0lEQVR4nO2bz28MYRjHP61GqxFENNUqCQeJ4ubHQSQaaRoRUpfGSZxcxEUv9C5dB0kjLk4uDoiThI0ILug/QBxIeqDSUkV1U1LddXhmMrvdZd/Zed95ln0/yWQmzTPf9zvfznTm5XnB42lomhTG3A4MAgeALmAtMA1MANlg+6bgyzm9wB2gUGXLARkkmP+Gs8Ai0UUuAS+Be8AN4AnwgdIg3gI7Ncza5hLRRS0Ao0B3hbpm4CgSRlg/B+xLx6YbThFdzBtgh8E5TcBF4Fdw3iSVA6t7OpDfYAH4BGyOef4ZovBu27WWDmOI+TwwUKPGzSKNPZZ8pUILMIOYf5xAZwvRo3DNgq/UOER0+w4l1Lof6LxLaqoSzS5Egd1Fx+MJtcLze4B1CbXKcBVAV7BfRN7vSZiooGsNVwGsDvZzyEdPEmaLjtck1CrDVQD/DD4AbQPaNHwALTFqNwGthrXhVHYFsC2Wo3I2Fh13G+r9ROYQ1hih+jy+3rYRkwszfQQOGtbVE0ae4zwCIB8lGYO6k0Af8q8752OOsZxdwLngOEPph1ElLgBbE45ZRha5rUw/a68G9TMWxj5CdFvvN6gfD2qzJuIN/xbwAWgb0MYHoG1AGx+AtgFtfADaBrTxAWgb0MYH4Eg3F+znLWjN/+HYCnGnw6aMASuBBxa0niNT3AXglQW9ElwFMA0MW9LKA5ctaZXh/wZoG9DGB6BtQBsfgLYBbXwA2ga08QFoG9DGNIB8zHpNQo/5v1YtK65G+F9cHbHtpE9nsP9oUmwaQNjp1Q2siusoRdqJOsmMutNMA3gR7FuB/pim0mQAmYYDPLMp3ErU+PzQprBlHiEevwNttsXD5ucCcMy2uAUGifxdcTHABuBrMMAXzHr/06KXyNsssN7VQCeQzs8C8Bk47GqgGPQjXsKlOMddDziMvGPDPv5bSC9/mivQmoC9yCKsYi+x23FqNT2ELHZqL/rZJPAaef38qFG3Gm3Iq7iX0mU0OeA0cNfRuBXpAa4TLWjQ2JaQu6Dmpigbt20X8tz1IaF04u6TOQ9MAe+Bp8iyuylHY3k8jcBvB9TrU8FUHhwAAAAASUVORK5CYII="
+              />
+            </button>
+            <button class="btn login-btn flex">
+              <ion-icon name="log-in-outline" class="login-icon"></ion-icon>
+              Login
+            </button>
+          </div>
+          <button class="btn--clear btn-side-nav">
+            <ion-icon name="menu-outline" class="side-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="side-nav-icon"></ion-icon>
+          </button>
+        </header>
+
+        <!----------- END HEADER SECTION---------------->
+
+        <!-----HERO SECTION----->
+
+        <main class="hero">
+          <section
+            class="hero-section grid grid--2-columns section-margin-b grid--align-v section-padding"
+          >
+            <div class="hero-text-container">
+              <div class="hero-text-box">
+                <p class="sub-heading hero-sub-heading flex">
+                  More than Faster
+                  <img src="img/hero/cherry.png" alt="cherry fruit" />
+                </p>
+                <h1 class="primary-heading">Be The Fastest In Delivering Your <span>Food</span></h1>
+                <p class="summary">
+                  Our job is to filling yor tummy with delicious food and with fast and free
+                  delivery.
+                </p>
+              </div>
+
+              <div class="cta-box flex f--align-c">
+                <button class="cta-btn btn">
+                  <a href="#app">Fill Your Belly NOW 😋</a>
+                </button>
+                <button class="watch btn--clear flex f--align-c">
+                  <span class="flex f--align-c f--justify-c">
+                    <ion-icon name="play" class="play-icon"></ion-icon>
+                  </span>
+
+                  Watch Video
+                </button>
+              </div>
+              <div class="reviews flex f--align-c">
+                <div class="customers-pics">
+                  <img src="img/customers/ONE.webp" alt="a man smiling with galasses" />
+                  <img src="img/customers/TWO.webp" alt="smiling person with glasses" />
+                  <img
+                    src="img/customers/THREE.webp"
+                    alt="best man in the world with the best smile ever"
+                  />
+                </div>
+                <div class="reviews-rating">
+                  <p class="small-title">Our Happy Customers</p>
+                  <div class="reviews-text flex f--align-c">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="star-icon" viewBox="0 0 576 512">
+                      <path
+                        d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                      />
+                    </svg>
+
+                    <span>4,8</span>
+                    <span>(12.4K Review)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-image">
+              <img
+                src="img/hero/happy-man-eating2.webp"
+                alt="exited man eating burger"
+                class="big-hero-image"
+              />
+
+              <div class="floating-box-1 flex f--align-c floating">
+                <img src="img/hero/courier.gif" alt="memoji talking woman" />
+                <div class="floating-text-1">
+                  <p class="small-title">Magy Jonas</p>
+                  <span>Food Courier</span>
+                </div>
+                <div class="call-icon-container">
+                  <ion-icon name="call-outline" class="call-icon"></ion-icon>
+                </div>
+              </div>
+
+              <div class="floating-box-2 grid floating">
+                <img src="img/hero/pizza.jpg" alt="italian pizza" />
+                <div class="floating-text-2 flex">
+                  <p class="small-title">Italian pizza</p>
+                  <ul class="floating-stars flex">
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="star-icon"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="star-icon"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="star-icon"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="star-icon"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                        />
+                      </svg>
+                    </li>
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"
+                        class="star-icon"
+                      >
+                        <path
+                          d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"
+                        />
+                      </svg>
+                    </li>
+                  </ul>
+                  <p id="meals-price"><span id="dollar--color">$</span> 6.99</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <!-----END HERO SECTION----->
+
+        <!-----FEATURES SECTION----->
+
+        <section
+          class="features-section grid grid--3-columns grid--auto-rows grid--align-v section-margin-b section-padding"
+          id="features"
+        >
+          <div class="features-heading">
+            <p class="uppercase-sub sub-heading text-align-c">What we serve</p>
+            <h2 class="secondary-heading text-align-c">
+              Your Favourit Food<br />
+              Delivery Partner
+            </h2>
+          </div>
+
+          <div class="feature-1">
+            <img
+              src="img/app/app-screen-1.webp"
+              alt=" motorcycle and foodista app picture inside phone"
+            />
+            <h3 class="tertiary-heading text-align-c">Easy To Order</h3>
+            <p>You only need a few steps in <br />ordering food.</p>
+          </div>
+
+          <div class="feature-2">
+            <img
+              src="img/app/app-screen-2.webp"
+              alt=" motorcycle and foodista app preparing food picture inside phone"
+            />
+            <h3 class="tertiary-heading text-align-c">Fstest Delivery</h3>
+            <p>Delivery that is always ontime <br />even faster.</p>
+          </div>
+
+          <div class="feature-3">
+            <img src="img/app/app-screen-3.webp" alt="delivery man with red tshirt" />
+            <h3 class="tertiary-heading text-align-c">Best Quality</h3>
+            <p>Not only for us quality is also <br />number one.</p>
+          </div>
+        </section>
+        <!-----END FEATURES SECTION----->
+
+        <!-----MENU SECTION----->
+
+        <section class="menu-section grid grid--auto-rows section-margin-b" id="menu">
+          <div class="menu-heading">
+            <p class="uppercase-sub sub-heading">Our Menu</p>
+            <h2 class="secondary-heading">
+              Menu That Always <br />
+              Make You Fall In Love
+            </h2>
+          </div>
+
+          <div class="menu-list">
+            <div class="menu-list-items flex f--column">
+              <button class="btn"><span>🍔</span> Burger</button>
+              <button class="btn"><span>🍕</span>Pizza</button>
+              <button class="btn"><span>🧁</span>Cupecake</button>
+              <button class="btn"><span>🍜</span>Ramen</button>
+              <button class="btn"><span>🍧</span>Ice cream</button>
+              <button class="btn"><span>🌯</span>Burrito</button>
+            </div>
+          </div>
+
+          <div class="carousel flex" id="#carousel">
+            <div class="carousel-control-btns flex">
+              <button type="button" class="previous-btn" onclick="slide('left')">
+                <ion-icon name="chevron-back-outline" class="arrow-icon"></ion-icon>
+              </button>
+              <button type="button" class="next-btn" onclick="slide('right')">
+                <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+              </button>
+            </div>
+
+            <div class="slider-box-template meal-1">
+              <div class="slider-text meal-text-position">
+                <p class="">Italian pizza</p>
+                <p id="meals-price"><span id="dollar--color">$</span>7.46</p>
+                <button class="order-meal btn--clear">
+                  Order Now
+                  <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-box-template meal-2">
+              <div class="slider-text meal-text-position">
+                <p class="">Sausage pizza</p>
+                <p id="meals-price"><span id="dollar--color">$</span>6.46</p>
+                <button class="order-meal btn--clear">
+                  Order Now
+                  <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-box-template meal-3">
+              <div class="slider-text meal-text-position">
+                <p class="">Pepperoni pizza</p>
+                <p id="meals-price"><span id="dollar--color">$</span>7.46</p>
+                <button class="order-meal btn--clear">
+                  Order Now
+                  <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+                </button>
+              </div>
+            </div>
+            <div class="slider-box-template meal-1">
+              <div class="slider-text meal-text-position">
+                <p class="">Margarita pizza</p>
+                <p id="meals-price"><span id="dollar--color">$</span>7.46</p>
+                <button class="order-meal btn--clear">
+                  Order Now
+                  <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-box-template meal-2">
+              <div class="slider-text meal-text-position">
+                <p class="">Sausage pizza</p>
+                <p id="meals-price"><span id="dollar--color">$</span>6.46</p>
+                <button class="order-meal btn--clear">
+                  Order Now
+                  <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="slider-box-template meal-3">
+              <div class="slider-text meal-text-position">
+                <p class="">Pepperoni pizza</p>
+                <p id="meals-price"><span id="dollar--color">$</span>7.46</p>
+                <button class="order-meal btn--clear">
+                  Order Now
+                  <ion-icon name="chevron-forward-outline" class="arrow-icon"></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-----END MENU SECTION----->
+
+        <!-----TESTMONIAL SECTION----->
+
+        <section
+          class="testimonial-section grid grid--2-columns section-margin-b grid--align-v section-padding"
+          id="testi"
+        >
+          <div class="testimonial-left-side">
+            <div class="testimonial-big-image">
+              <img src="img/testimonial/chef.webp" alt="" class="testimonial-image" />
+              <div class="reviewers-count-box floating grid">
+                <p class="small-title">Our Reviewer</p>
+                <div class="reviewers-img flex">
+                  <img src="img/customers/ONE.webp" alt="a man smiling with galasses" />
+                  <img src="img/customers/TWO.webp" alt="smiling person with glasses" />
+                  <img
+                    src="img/customers/THREE.webp"
+                    alt="best man in the world with the best smile ever"
+                  />
+                  <span>12K+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-text-box">
+            <p class="sub-heading uppercase-sub">What They Say</p>
+            <h2 class="secondary-heading">
+              What Our Customer <br />
+              Say About Us
+            </h2>
+            <blockquote class="testimonial-quote">
+              ‘‘Foodista is the best. Besides the many and delicious <br />
+              meals, the service is also very good, especialy in <br />
+              the very fast delivery. I highly recommend Foodista to you.’’
+            </blockquote>
+
+            <div class="testimonial-author flex f--align-c">
+              <img
+                src="img/testimonial/THREE.webp"
+                alt=" ahmed fathy the best man in the whole world"
+              />
+              <div class="author-bio flex f--column">
+                <p class="small-title">Ahmed Fathy</p>
+                <p>Food Enthusiast</p>
+              </div>
+            </div>
+
+            <ul class="floating-stars flex">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon" viewBox="0 0 576 512">
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon" viewBox="0 0 576 512">
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon" viewBox="0 0 576 512">
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon" viewBox="0 0 576 512">
+                  <path
+                    d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="star-icon">
+                  <path
+                    d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-----END TESTMONIAL SECTION----->
+
+        <!-----APP SECTION----->
+
+        <section
+          class="app-section grid grid--2-columns grid--align-v section-margin-b section-padding"
+          id="app"
+        >
+          <div class="app-text-box">
+            <p class="sub-heading uppercase-sub">Download App</p>
+            <h2 class="secondary-heading">
+              Get Started with <br />
+              Foodista Today!
+            </h2>
+            <p class="app-text">
+              Discover food wherever and whenever and get <br />
+              your food delivered quickly.
+            </p>
+            <button class="btn app-cta"><a href="#">Get The App</a></button>
+          </div>
+
+          <div class="app-pic">
+            <img
+              src="img/app/app-download.webp"
+              alt="motorcycle and foodista app picture inside phone"
+            />
+          </div>
+        </section>
+
+        <!-----END APP SECTION----->
+
+        <!-----FOOTER SECTION----->
+
+        <footer class="footer-section flex section-padding section-margin-b">
+          <aside class="footer-summary">
+            <a href="#">
+              <img src="img/foodista-logo.png" alt="foodista logo" />
+            </a>
+            <p>
+              Our job is to filling yor tummy with delicious food and with fast and free delivery.
+            </p>
+            <div class="social flex">
+              <a href="#">
+                <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+                <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+              </a>
+            </div>
+          </aside>
+
+          <div class="about">
+            <p class="small-title">About</p>
+            <ul class="footer-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Menu</a></li>
+            </ul>
+          </div>
+
+          <div class="company">
+            <p class="small-title">Company</p>
+            <ul class="footer-list">
+              <li><a href="#">Why Foodista?</a></li>
+              <li><a href="#">Partner With Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="support">
+            <p class="small-title">Support</p>
+
+            <ul class="footer-list">
+              <li><a href="#">Account</a></li>
+              <li><a href="#">support Center</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Accesbility</a></li>
+            </ul>
+          </div>
+
+          <div class="contact" id="contact">
+            <p class="small-title">Get in Touch</p>
+            <p>
+              Question or feedback? <br />
+              we'd love to hear from you
+            </p>
+            <form action="">
+              <input type="email" name="email" id="" placeholder="Email Address" />
+              <textarea
+                name="text"
+                class="text-area"
+                placeholder="Your feedback"
+                oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'
+              ></textarea>
+              <div class="send-container flex f--align-c f--justify-c">
+                <input type="submit" value="" class="send-btn" />
+                <ion-icon name="send" class="send-icon"></ion-icon>
+              </div>
+            </form>
+          </div>
+        </footer>
+
+        <!-----END FOOTER SECTION----->
+      </div>
+    </div>
+  </body>
+</html>
