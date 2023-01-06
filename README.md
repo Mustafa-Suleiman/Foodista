@@ -8,7 +8,7 @@ Responsive landing page for an imaginary food delivery brand called Foodista.
 
 # Screenshots
 <div align='center'>
- <img src="https://user-images.githubusercontent.com/109823798/211037344-5518eafc-460d-4000-b25d-f69fb9f8019b.jpg">
+ <img src="https://user-images.githubusercontent.com/109823798/211039284-13e82db5-6a22-4edd-8193-e2afd35fa361.png">
 <h2> Responisve</h2>
  <img src="https://user-images.githubusercontent.com/109823798/211037411-ef3d2586-cee0-4f29-94f5-98ec574a5d7c.png">
  </div>
